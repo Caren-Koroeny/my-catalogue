@@ -109,9 +109,7 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Video Demo <a name="live-demo"></a>
-
-
-- [Video Demo](https://drive.google.com/file/d/1thwoA5YTROt6Kg1H2IVnrjlt-rxo1cIm/view?usp=sharing)
+ Coming Soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
