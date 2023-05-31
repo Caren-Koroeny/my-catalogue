@@ -1,3 +1,4 @@
+
 CREATE TABLE game_table (
   id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, 
   name TEXT NOT NULL,
@@ -9,7 +10,29 @@ CREATE TABLE authors(
   first_name TEXT NOT NULL,
   Last_name TEXT NOT NULL);
 
-  DROP TABLE IF EXISTS book;
+
+CREATE TABLE music_album {
+    id bigint generated always as identity primary key,    
+    name VARCHAR(100) NOT NULL,
+    on_spotify BOOLEAN NOT NULL,
+    publish_date INT NOT NULL
+}
+
+CREATE TABLE genre {
+    id INT NOT NULL PRIMARY KEY,    
+    name VARCHAR(100) NOT NULL,
+}
+
+CREATE TABLE item(
+  id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  genre_id INT REFERENCES genre(id) ON DELETE CASCADE,
+  author_id INT REFERENCES author(id) ON DELETE CASCADE,
+  label_id INT REFERENCES label(id) ON DELETE CASCADE,
+  publish_date DATE NOT NULL,
+  archived BOOLEAN NOT NULL
+);
+
+DROP TABLE IF EXISTS book;
 
 CREATE TABLE book(
   id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
