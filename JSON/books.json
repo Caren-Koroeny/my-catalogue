@@ -19,5 +19,12 @@
     "publish_date": 2023,
     "author": "Kenn Walibora",
     "title": "Kidagaa Kimemwozea"
+  },
+  {
+    "publisher": "New Publisher",
+    "cover_state": "New",
+    "publish_date": 2010,
+    "author": "New Author",
+    "title": "Game of Thrones"
   }
 ]
