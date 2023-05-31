@@ -90,7 +90,7 @@ class Welcome
       action = options[option]
       if action
         action.call
-        break if %w[7 q quit].include?(option)
+        break if %w[13 q quit].include?(option)
       else
         puts 'Invalid option. Please try again.'
       end
