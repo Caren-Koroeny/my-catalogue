@@ -13,11 +13,11 @@ describe Genre do
     end
 
     it 'Should have one property' do
-      expect(@genre).to have_attributes(name: 'Blues')
+      expect(@genre).to have_attributes(name: 'Soft')
     end
 
-    it 'Should have genre property of Blues' do
-      expect(@music.genre.name).to eq('Blues')
+    it 'Should have genre property of Soft' do
+      expect(@music.genre.name).to eq('Soft')
     end
   end
 end

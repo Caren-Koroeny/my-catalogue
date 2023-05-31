@@ -3,7 +3,6 @@ require_relative './helper_spec'
 describe Book do
   context 'adding a book' do
     book = Book.new('Wazalendo', 'Good', 2019, 'Ellen White', 'Desire of Ages')
-    
 
     it 'expects book title to be Desire of Ages' do
       expect(book.title).to eql 'Desire of Ages'

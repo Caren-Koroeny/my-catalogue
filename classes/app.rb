@@ -129,11 +129,13 @@ class App
   end
 
   def list_musicalbums
-    @music_albums.each { |album| puts "Name: #{album['album'].name}, Publish date: #{album['album'].publish_date}, On spotity: #{album['album'].on_spotify}" }
+    @music_albums.each do |album|
+      puts "Name: #{album['album'].name}, Publish date: #{album['album'].publish_date}, On spotity: #{album['album'].on_spotify}"
+    end
   end
 
   def list_genre
-    @genres.each { |item| puts item.name.to_s }
+    @genres.each { |item| puts item.name }
   end
 
   def add_game
