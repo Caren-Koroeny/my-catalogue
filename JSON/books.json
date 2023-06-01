@@ -1,0 +1,30 @@
+[
+  {
+    "publisher": "White publishers",
+    "cover_state": "Yellow white",
+    "publish_date": 2021,
+    "author": "Ellen White",
+    "title": "Desire of Ages"
+  },
+  {
+    "publisher": "Gould publishers",
+    "cover_state": "Good",
+    "publish_date": 2017,
+    "author": "Ellen Gould White",
+    "title": "Patriach and Prophets"
+  },
+  {
+    "publisher": "Kiswahili kitukuzwe",
+    "cover_state": "Good",
+    "publish_date": 2023,
+    "author": "Kenn Walibora",
+    "title": "Kidagaa Kimemwozea"
+  },
+  {
+    "publisher": "New Publisher",
+    "cover_state": "New",
+    "publish_date": 2010,
+    "author": "New Author",
+    "title": "Game of Thrones"
+  }
+]

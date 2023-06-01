@@ -1,19 +1,23 @@
-require 'date'
-require_relative '../classes/genre'
-require_relative '../classes/music_album'
+require_relative './helper_spec'
 
-RSpec.describe Genre do
-  let(:genre) { Genre.new(1, 'Rock') }
+describe Genre do
+  before :each do
+    @music = MusicAlbum.new('Sounds like Reign', '2022', false)
+    @genre = Genre.new('Soft')
+    @genre.add_item(@music)
+  end
 
-  describe '#add_item' do
-    it 'should add an item to the genre' do
-      album = MusicAlbum.new(id: 1, genre: genre, author: 'Artist', source: 'CD', label: 'Label',
-                             publish_date: Date.new(2022, 1, 1), on_spotify: true)
+  context 'Genre class' do
+    it 'Should be an instance of the MusicAlbum class' do
+      expect(@genre).to be_an_instance_of(Genre)
+    end
 
-      genre.add_item(album)
+    it 'Should have one property' do
+      expect(@genre).to have_attributes(name: 'Soft')
+    end
 
-      expect(genre.items).to include(album)
-      expect(album.genre).to eq(genre)
+    it 'Should have genre property of Soft' do
+      expect(@music.genre.name).to eq('Soft')
     end
   end
 end
