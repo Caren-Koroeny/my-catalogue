@@ -3,14 +3,14 @@
 
 
 <div align="center">
-  <h1></h1>
+  
+  <h3><b>My Catalogue</b></h3>
   <br/>
 
  
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
