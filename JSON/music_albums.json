@@ -4,5 +4,11 @@
     "publish_date": "2024",
     "on_spotify": true,
     "genre": "Starehe"
+  },
+  {
+    "name": "New album",
+    "publish_date": "2024",
+    "on_spotify": false,
+    "genre": "Manano"
   }
 ]

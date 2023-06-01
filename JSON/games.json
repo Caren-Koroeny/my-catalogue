@@ -3,5 +3,15 @@
     "name": "Tomy",
     "multiplayer": true,
     "last_played_at": 2013
+  },
+  {
+    "name": "Hocky",
+    "multiplayer": false,
+    "last_played_at": 2019
+  },
+  {
+    "name": "Table tennis",
+    "multiplayer": false,
+    "last_played_at": 2013
   }
 ]
